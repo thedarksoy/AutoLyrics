@@ -54,9 +54,9 @@ The fine-tuned model was evaluated against the zero-shot baseline on the reserve
 
 | Metric | Zero-Shot Baseline | LoRA Fine-Tuned | Absolute Change | Relative Improvement |
 | :--- | :--- | :--- | :--- | :--- |
-| **Word Error Rate (WER)** | 0.8024 | **0.3234** | -0.4790 | **59.70%** 📉 |
-| **Character Error Rate (CER)** | 0.5475 | **0.1078** | -0.4397 | **80.31%** 📉 |
-| **Peak VRAM (GB)** | 1.10 | 0.56 | -0.54 | 49.09% 📉 |
+| **Word Error Rate (WER)** | 0.8024 | **0.3234** | -0.4790 | **59.70%**  |
+| **Character Error Rate (CER)** | 0.5475 | **0.1078** | -0.4397 | **80.31%**  |
+| **Peak VRAM (GB)** | 1.10 | 0.56 | -0.54 | 49.09%  |
 | **Avg Latency (s)** | 0.629 | 0.941 | +0.312 | - |
 
 ### Conclusion: Target Exceeded
