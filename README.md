@@ -1,17 +1,17 @@
-# 🎤 AUTOLYRICS
+# AUTOLYRICS
 
 **Studio-Grade Singing Voice Transcription powered by LoRA Fine-Tuned Whisper**
 
 AUTOLYRICS is a machine learning project dedicated to accurately transcribing singing voices into text (lyrics). By fine-tuning OpenAI's Whisper model on singing datasets using Low-Rank Adaptation (LoRA), this project substantially reduces the Word Error Rate (WER) compared to standard zero-shot speech-to-text models.
 
-## 🚀 Features
+## Features
 - **Highly Accurate Singing Transcription**: Achieves a massive **59.7% relative improvement** in Word Error Rate over the zero-shot Whisper baseline.
 - **Efficient Fine-Tuning**: Uses 8-bit quantization and LoRA targeting attention matrices to train efficiently on consumer hardware (e.g., RTX 4060 8GB).
-- **Interactive UI**: A beautiful, premium glassmorphism dark-themed Gradio web interface for seamless microphone recording or file uploads.
+- **Interactive UI**: dark-themed Gradio web interface for seamless microphone recording or file uploads.
 
 ---
 
-## 📊 Performance Report
+##  Performance Report
 In our fine-tuning process, we aimed to exceed a target of a 15% relative WER improvement.
 
 | Metric | Zero-Shot Baseline | LoRA Fine-Tuned | Relative Improvement |
@@ -24,7 +24,7 @@ In our fine-tuning process, we aimed to exceed a target of a 15% relative WER im
 
 ---
 
-## 🛠️ Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 - Python 3.10+
@@ -46,7 +46,7 @@ In our fine-tuning process, we aimed to exceed a target of a 15% relative WER im
 
 ---
 
-## 🏃 Usage
+## Usage
 
 ### 1. Preprocess Baseline Data
 Downloads the singing dataset, processes audio and text, and evaluates the baseline zero-shot model.
@@ -68,8 +68,8 @@ python 3_app_eval.py
 
 ---
 
-## 🎥 Demo Video
+##  Demo Video
 A demonstration of the AUTOLYRICS interface transcribing a small audio clip is included in the release artifacts.
 
-## 📄 License
+##  License
 This project is licensed under the MIT License.
