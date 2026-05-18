@@ -1,0 +1,15 @@
+{
+  "model": "openai/whisper-small",
+  "approach": "LoRA fine-tuned (decoder q_proj, v_proj)",
+  "adapter_dir": "outputs/whisper-small-lora/final_adapter",
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "num_test_examples": 12,
+  "wer": 0.3234,
+  "cer": 0.1078,
+  "avg_latency_seconds": 0.941,
+  "real_time_factor": 0.04,
+  "peak_vram_gb": 0.56,
+  "total_audio_seconds": 285.5,
+  "total_inference_seconds": 11.3
+}

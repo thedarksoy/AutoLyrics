@@ -1,0 +1,15 @@
+{
+  "baseline_wer": 0.8024,
+  "finetuned_wer": 0.3234,
+  "wer_absolute_reduction": 0.479,
+  "wer_relative_reduction_pct": 59.7,
+  "baseline_cer": 0.5475,
+  "finetuned_cer": 0.1078,
+  "cer_absolute_reduction": 0.4397,
+  "cer_relative_reduction_pct": 80.31,
+  "baseline_vram_gb": 1.1,
+  "finetuned_vram_gb": 0.56,
+  "baseline_latency": 0.629,
+  "finetuned_latency": 0.941,
+  "target_met": true
+}

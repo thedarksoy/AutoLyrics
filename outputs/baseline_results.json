@@ -1,0 +1,14 @@
+{
+  "model": "openai/whisper-small",
+  "approach": "zero-shot (baseline)",
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "num_test_examples": 12,
+  "wer": 0.8024,
+  "cer": 0.5475,
+  "avg_latency_seconds": 0.629,
+  "real_time_factor": 0.026,
+  "peak_vram_gb": 1.1,
+  "total_audio_seconds": 285.5,
+  "total_inference_seconds": 7.5
+}
